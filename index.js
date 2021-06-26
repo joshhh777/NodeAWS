@@ -39,7 +39,7 @@ const tiempo = new Date().toString()
 
 
 app.get('/', (request, response) => {
-    response.send('<h1>Hola Jose Cancino</h1>')
+    response.send('<h1>NODEJS CON EXPRESS EN AWS EC2</h1>')
   })
 
   app.get('/api/personas', (request, response) => {
